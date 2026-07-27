@@ -120,4 +120,4 @@ flowchart LR
 ## 👤 Author
 
 **Nikhil Manne** — Data Engineer
-[LinkedIn](www.linkedin.com/in/nikhil-manne-0bb303220) • [GitHub](https://github.com/nikhilmanne10)
+ [LinkedIn](https://www.linkedin.com/in/nikhil-manne-0bb303220) • [GitHub](https://github.com/nikhilmanne10)
