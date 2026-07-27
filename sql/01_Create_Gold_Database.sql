@@ -1,0 +1,2 @@
+CREATE DATABASE gold_db;
+GO
