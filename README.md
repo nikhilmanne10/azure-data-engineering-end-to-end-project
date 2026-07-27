@@ -9,6 +9,7 @@
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![Synapse](https://img.shields.io/badge/Synapse%20Analytics-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![PowerBI](https://img.shields.io/badge/PowerBI-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 
 ---
 
