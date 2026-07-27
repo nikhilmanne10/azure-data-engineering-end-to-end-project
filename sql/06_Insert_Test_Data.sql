@@ -1,0 +1,30 @@
+INSERT INTO Production.Product
+(
+    Name,
+    ProductNumber,
+    MakeFlag,
+    FinishedGoodsFlag,
+    SafetyStockLevel,
+    ReorderPoint,
+    StandardCost,
+    ListPrice,
+    DaysToManufacture,
+    SellStartDate,
+    rowguid,
+    ModifiedDate
+)
+VALUES
+(
+    'Gaming Mouse X1',
+    'GMX-001',
+    1,
+    1,
+    100,
+    50,
+    20.00,
+    39.99,
+    2,
+    GETDATE(),
+    NEWID(),
+    GETDATE()
+);
