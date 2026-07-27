@@ -25,15 +25,25 @@ The goal was to replicate how a real organization would move data from a transac
 
 ```mermaid
 flowchart LR
-    A[On-Prem / Azure SQL<br/>AdventureWorks DB] -->|Self-Hosted<br/>Integration Runtime| B[Azure Data Factory<br/>Orchestration]
-    B --> C[(ADLS Gen2<br/>Bronze Layer<br/>Raw)]
-    C --> D[Azure Databricks<br/>PySpark Transformations]
-    D --> E[(ADLS Gen2<br/>Silver Layer<br/>Cleaned / Delta)]
-    E --> F[Azure Databricks<br/>Business Logic + Aggregations]
-    F --> G[(ADLS Gen2<br/>Gold Layer<br/>Curated / Delta)]
-    G --> H[Unity Catalog<br/>Governance & Access Control]
-    H --> I[Azure Synapse<br/>Serverless SQL Pool]
-    I --> J[Power BI / Reporting]
+
+    A[(Enterprise SQL Database)]
+        -->|Metadata-driven Ingestion| B[Azure Data Factory]
+
+    B --> C[(Bronze Layer<br/>ADLS Gen2)]
+
+    C --> D[Azure Databricks<br/>PySpark]
+
+    D --> E[(Silver Layer<br/>Delta Lake)]
+
+    E --> F[Azure Databricks<br/>PySpark]
+
+    F --> G[(Gold Layer<br/>Delta Lake)]
+
+    G --> H[Azure Synapse<br/>Serverless SQL]
+
+    H --> I[SQL Views]
+
+    I --> J[Power BI Dashboard]
 ```
 
 **Data flow:**
@@ -110,4 +120,4 @@ flowchart LR
 ## 👤 Author
 
 **Nikhil Manne** — Data Engineer
-[LinkedIn](#) • [GitHub](https://github.com/nikhilmanne10)
+[LinkedIn](www.linkedin.com/in/nikhil-manne-0bb303220) • [GitHub](https://github.com/nikhilmanne10)
