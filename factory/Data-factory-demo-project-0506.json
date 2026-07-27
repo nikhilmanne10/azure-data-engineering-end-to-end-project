@@ -1,0 +1,15 @@
+{
+	"name": "Data-factory-demo-project-0506",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b4012154-874a-41a7-8f19-cf2b730d0c34",
+		"tenantId": "93c3d955-ebdb-4be6-b6cc-c6490c1894c6"
+	}
+}

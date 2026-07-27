@@ -1,0 +1,7 @@
+{
+	"name": "SHIR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "USED TO CONNECT LOCAL SQL SERVER"
+	}
+}
